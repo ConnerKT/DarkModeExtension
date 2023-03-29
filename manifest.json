@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "Hello Extensions",
-    "description": "Base Level Extension",
+    "name": "Dark Mode Button",
+    "description": "This is a Dark Mode Button that allows the user to switch the theme of their website from a dark neon black to a bright white!",
     "version": "1.0",
     "action": {
       "default_popup": "index.html",
