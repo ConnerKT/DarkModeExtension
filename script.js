@@ -1,4 +1,9 @@
+let darkmodebutton = document.getElementById("dark");
+let clickfunction = darkmodebutton.addEventListener("click", dark);
+
+
 function dark() {
+    console.log("poop")
     let currentmode = document.getElementById("dark").getAttribute("src")
     if (currentmode =="assets/lightmode.png"){
          document.getElementById("dark").setAttribute("src", "assets/darkmode.png");
